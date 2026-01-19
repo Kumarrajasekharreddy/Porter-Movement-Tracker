@@ -27,8 +27,27 @@ A real-time analytics dashboard to visualize porter movements across hospital de
 | **Map**        | OpenStreetMap (no API key needed) |
 
 ---
+## 🖼️ Screenshots
 
-## 💡 Key Code Snippets (Just the Magic)
+### 1. Porter Movement Timeline (Gantt Chart)
+
+[![Porter Movement Timeline](https://github.com/Kumarrajasekharreddy/Porter-Movement-Tracker/blob/main/screenshots/Porter%20Movement.jpg)](https://github.com/Kumarrajasekharreddy/Porter-Movement-Tracker/blob/main/screenshots/Porter%20Movement.jpg)  
+*Interactive Gantt chart showing porter movements over time — hover to see start/end times and department transitions.*
+
+### 2. Movement Heatmap (Department-to-Department Flow)
+
+[![Heatmap](https://github.com/Kumarrajasekharreddy/Porter-Movement-Tracker/blob/main/screenshots/Heat%20Map.jpg)](https://github.com/Kumarrajasekharreddy/Porter-Movement-Tracker/blob/main/screenshots/Heat%20Map.jpg)  
+*Color-coded heatmap visualizing frequency of movements between departments — darker shades = higher activity.*
+
+### 3. Sankey Diagram (Flow Paths + Duration)
+
+[![Sankey Diagram](https://github.com/Kumarrajasekharreddy/Porter-Movement-Tracker/blob/main/screenshots/Sankey%20Diagram.jpg)](https://github.com/Kumarrajasekharreddy/Porter-Movement-Tracker/blob/main/screenshots/Sankey%20Diagram.jpg)  
+*Flow-based Sankey diagram showing porter movement paths, volume, and average duration between locations.*
+
+
+---
+
+## 💡 Key Code Snippets 
 
 ### Dynamic Filtering
 ```python
